@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 class Projects extends Component {
     render() {
@@ -14,7 +14,8 @@ class Projects extends Component {
                 <p>A job search engine to match managers with potential employees.</p>
               </CardText>
               <CardActions border>
-                <Button colored href="https://github.com/JuTo-Hub/Project2_Career_Match">GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/Project2_Career_Match">Github</Button>
+                <Button colored href="https://career-match-proj-2.herokuapp.com/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -30,6 +31,7 @@ class Projects extends Component {
               </CardText>
               <CardActions border>
                 <Button colored href="https://github.com/JuTo-Hub/Project1_Game_Search_Engine">GitHub</Button>
+                <Button colored href="https://umutamac.github.io/Game-Search-Engine/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -46,7 +48,8 @@ class Projects extends Component {
                 <p>This keeps track of multiple cities weather data at once, even 5 day forecast data!</p>
               </CardText>
               <CardActions border>
-                <Button colored href="https://juto-hub.github.io/06_Weather_Wizard/">GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/06_Weather_Wizard">GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/06_Weather_Wizard/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -62,7 +65,8 @@ class Projects extends Component {
             Use it to keep track of meetings or other plans for the day.</p>
               </CardText>
               <CardActions border>
-                <Button colored href="https://juto-hub.github.io/05_-Day_Planner/">GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/05_-Day_Planner">GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/05_-Day_Planner/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -79,7 +83,8 @@ class Projects extends Component {
               <p>This is a simple password generator that takes in user input to create a password.</p>
               </CardText>
               <CardActions border>
-                <Button colored href="https://juto-hub.github.io/03_Password_Generator/">GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/03_Password_Generator">GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/03_Password_Generator/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -95,7 +100,8 @@ class Projects extends Component {
                 It even records your highscore at the end.</p>
               </CardText>
               <CardActions border>
-                <Button colored href="https://juto-hub.github.io/04_Code_Test/">GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/04_Code_Test">GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/04_Code_Test/">App</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />

@@ -120,15 +120,21 @@ body {
   padding-top: 5em;
 }
 
-.floatText p{
+.floatText {
+  display: flex;
   flex:1;
   color: white;
   background-color: black;
-  opacity: .8;
+  opacity: 1;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  align-items: center;
+  
+}
+.floatText p{
   font-size: xx-large;
+
 }
 .banner-text {
   background-color: black;

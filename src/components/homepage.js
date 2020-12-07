@@ -9,12 +9,11 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={2}></Cell>
                     <Cell col={8}>
-                            <img class="floatImg"
+                    <div className="floatText">
+                        <img
                             src="./assets/JT_Cartoon_2.png"
                             alt="avatar"
-                            className="avatar-img"
                         />
-                        <div className="floatText">
                         <p>Hailing from the depths of Brookyln, New York... I've put my all into 
                 everything that I've attempted and web developement is no different. I intend to 
                 shine bright in the coding world and amongst my peers. No syntax error is going to 
