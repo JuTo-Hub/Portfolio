@@ -81,19 +81,24 @@ body {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
+  height: 700px;
+  background-color: black;
+  opacity: .8;
+  color: white;
   margin-bottom: 20px;
 }
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
+.contact-grid img {
+  opacity: 1;
 }
 
 .contact-grid p {
+  color: white;
   font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
+  font-size: larger;
+}
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+  color: white;
 }
 
 .contact-grid hr {
