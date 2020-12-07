@@ -7,12 +7,20 @@ class Landing extends Component {
         return (
             <div style={{ width: '100%', margin: 'auto' }}>
                 <Grid className="landing-grid">
-                    <Cell col={12}>
-                        <img
+                    <Cell col={2}></Cell>
+                    <Cell col={8}>
+                            <img class="floatImg"
                             src="./assets/JT_Cartoon_2.png"
                             alt="avatar"
                             className="avatar-img"
                         />
+                        <div className="floatText">
+                        <p>Hailing from the depths of Brookyln, New York... I've put my all into 
+                everything that I've attempted and web developement is no different. I intend to 
+                shine bright in the coding world and amongst my peers. No syntax error is going to 
+                stop me from reaching the pinnacle and competing for the top spot. Stay tuned, there 
+                is so much more to look forward to...</p>
+                </div>
 
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>

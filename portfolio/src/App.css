@@ -120,6 +120,16 @@ body {
   padding-top: 5em;
 }
 
+.floatText p{
+  flex:1;
+  color: white;
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  font-size: xx-large;
+}
 .banner-text {
   background-color: black;
   opacity: .8;
