@@ -36,18 +36,18 @@
     transform: rotate(360deg);
   }
 }
-
+body {
+  background-image: url(https://i.pinimg.com/originals/bb/61/8d/bb618db7d825e2e03c8d86f781a65e06.jpg);
+}
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4; 
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #000000, #07437a, #0fc7f5); 
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #000000, #07437a, #0fc7f5);
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
+  background: #833ab4;
+  background-image: url(https://i.pinimg.com/originals/bb/61/8d/bb618db7d825e2e03c8d86f781a65e06.jpg);
   position: fixed;
   top: 0;
   left: 0;
@@ -127,6 +127,7 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 
 .banner-text hr {
@@ -139,6 +140,7 @@
   color: white;
   font-size: 20px;
   padding: 1em;
+  text-align: center;
 }
 
 .social-links {

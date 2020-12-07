@@ -12,14 +12,16 @@ class Projects extends Component {
       if(this.state.activeTab === 0){
         return(
           <div className="projects-grid">
+              <Cell col={6}>
             {/* Project 1 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/CareerMatch.PNG) center / cover'}} ></CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                <h4>Career Match -</h4> 
+                <p>A job search engine to match managers with potential employees.</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/Project2_Career_Match">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -27,27 +29,31 @@ class Projects extends Component {
             </Card>
   
             {/* Project 2 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/C&R.PNG) center / cover'}} >Career Match</CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                <h4>Cocktails & Reviews -</h4>
+                <p>A PC game search engine with a special twist. Cocktails anyone?</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://github.com/JuTo-Hub/Project1_Game_Search_Engine">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-  
+            </Cell>
+
+            <Cell col={6}>
             {/* Project 3 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/WeatherWizard.png) center / cover'}} >#3</CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                <h4>Weather Wizard -</h4>
+                <p>This keeps track of multiple cities weather data at once, even 5 day forecast data!</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/06_Weather_Wizard/">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -55,27 +61,32 @@ class Projects extends Component {
             </Card>
 
              {/* Project 4 */}
-             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url("./assets/DayScheduler.png") center / cover'}} ></CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                <h4>Day Scheduler -</h4>
+                <p>A simple day scheduler that is color coded for cureent and future hours.
+            Use it to keep track of meetings or other plans for the day.</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/05_-Day_Planner/">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-  
+            </Cell>
+
+            <Cell col={6}>  
             {/* Project 5 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/PasswordGen.png) center / cover'}} ></CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              <h4>Password Generator -</h4> 
+              <p>This is a simple password generator that takes in user input to create a password.</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/03_Password_Generator/">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -83,33 +94,24 @@ class Projects extends Component {
             </Card>
   
             {/* Project 6 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
+              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/CodeQuiz.PNG) center / cover'}} ></CardTitle>
               <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                <h4>Code Quiz -</h4> 
+                <p>This is a quick exam to test your basic knowledge of coding. 
+                It even records your highscore at the end.</p>
               </CardText>
               <CardActions border>
-                <Button colored>GitHub</Button>
+                <Button colored href="https://juto-hub.github.io/04_Code_Test/">GitHub</Button>
               </CardActions>
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+            </Cell>
           </div>
   
   
-        )
-      } else if(this.state.activeTab === 1) {
-        return (
-          <div><h1>This is Angular</h1></div>
-        )
-      } else if(this.state.activeTab === 2) {
-        return (
-          <div><h1>This is VueJS</h1></div>
-        )
-      } else if(this.state.activeTab === 3) {
-        return (
-          <div><h1>This is MongoDB</h1></div>
         )
       }
   
