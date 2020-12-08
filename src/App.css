@@ -176,3 +176,20 @@ body {
   font-size: 5em;
   padding: 8px;
 }
+
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  height: 5px;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #000000, #07437a, #0fc7f5); 
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #000000, #07437a, #0fc7f5);
+
+}
+footer span{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: medium;
+
+}

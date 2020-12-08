@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import JT_Cartoon_2 from "../assets/JT_Cartoon_2.png"
 
 class Landing extends Component {
     render() {
@@ -11,7 +11,7 @@ class Landing extends Component {
                     <Cell col={8}>
                     <div className="floatText">
                         <img
-                            src="./assets/JT_Cartoon_2.png"
+                            src={JT_Cartoon_2}
                             alt="avatar"
                         />
                         <p>Hailing from the depths of Brookyln, New York... I've put my all into 

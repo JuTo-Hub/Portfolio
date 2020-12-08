@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import { Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import C_R from "../assets/C&R.png";
+import CareerMatch from "../assets/CareerMatch.PNG";
+import CodeQuiz from "../assets/CodeQuiz.PNG";
+import DayScheduler from "../assets/DayScheduler.PNG";
+import PasswordGen from "../assets/PasswordGen.PNG";
+import WeatherWizard from "../assets/WeatherWizard.PNG";
 
 class Projects extends Component {
     render() {
@@ -8,7 +14,7 @@ class Projects extends Component {
               <Cell col={6}>
             {/* Project 1 */}
             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/CareerMatch.PNG) center / cover'}} ></CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${CareerMatch}) center / cover`}} ></CardTitle>
               <CardText>
                 <h4>Career Match -</h4> 
                 <p>A job search engine to match managers with potential employees.</p>
@@ -24,7 +30,7 @@ class Projects extends Component {
   
             {/* Project 2 */}
             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/C&R.PNG) center / cover'}} >Career Match</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${C_R}) center / cover`}} >Career Match</CardTitle>
               <CardText>
                 <h4>Cocktails & Reviews -</h4>
                 <p>A PC game search engine with a special twist. Cocktails anyone?</p>
@@ -42,7 +48,7 @@ class Projects extends Component {
             <Cell col={6}>
             {/* Project 3 */}
             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/WeatherWizard.png) center / cover'}} >#3</CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${WeatherWizard}) center / cover`}} >#3</CardTitle>
               <CardText>
                 <h4>Weather Wizard -</h4>
                 <p>This keeps track of multiple cities weather data at once, even 5 day forecast data!</p>
@@ -58,7 +64,7 @@ class Projects extends Component {
 
              {/* Project 4 */}
              <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url("./assets/DayScheduler.png") center / cover'}} ></CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${DayScheduler}) center / cover`}} ></CardTitle>
               <CardText>
                 <h4>Day Scheduler -</h4>
                 <p>A simple day scheduler that is color coded for cureent and future hours.
@@ -77,7 +83,7 @@ class Projects extends Component {
             <Cell col={6}>  
             {/* Project 5 */}
             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/PasswordGen.png) center / cover'}} ></CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${PasswordGen}) center / cover`}} ></CardTitle>
               <CardText>
               <h4>Password Generator -</h4> 
               <p>This is a simple password generator that takes in user input to create a password.</p>
@@ -93,7 +99,7 @@ class Projects extends Component {
   
             {/* Project 6 */}
             <Card shadow={5} style={{minWidth: '450', margin: '5px'}}>
-              <CardTitle style={{color: '#fff', height: '176px', background: 'url(./assets/CodeQuiz.PNG) center / cover'}} ></CardTitle>
+              <CardTitle style={{color: '#fff', height: '176px', background: `url(${CodeQuiz}) center / cover`}} ></CardTitle>
               <CardText>
                 <h4>Code Quiz -</h4> 
                 <p>This is a quick exam to test your basic knowledge of coding. 

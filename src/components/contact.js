@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import JT_Cartoon_2 from "../assets/JT_Cartoon_2.png";
 
 
 class Contact extends Component {
@@ -10,7 +11,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Justin Torres</h2>
                         <img
-                            src="./assets/JT_Cartoon_2.png"
+                            src={JT_Cartoon_2}
                             alt="avatar"
                             style={{ height: '250px', opacity: '1'}}
                         />
